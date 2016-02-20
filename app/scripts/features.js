@@ -10,9 +10,9 @@ define([
 	'strut/importer/json/main',
 	'strut/importer/main',
 	'strut/exporter/main',
-	'strut/presentation_generator/impress/main',
+	//'strut/presentation_generator/impress/main',
 	'strut/presentation_generator/bespoke/main',
-	'strut/presentation_generator/handouts/main',
+	//'strut/presentation_generator/handouts/main',
 	'strut/presentation_generator/main',
 	'tantaman/web/saver/main',
 	'strut/slide_editor/main',
@@ -20,7 +20,7 @@ define([
 	'strut/slide_components/main',
 	'strut/well_context_buttons/main',
 	'tantaman/web/local_storage/main',
-	// 'tantaman/web/remote_storage/main',
+	'tantaman/web/remote_storage/main',
 	'strut/startup/main'
 	],
 function(ServiceRegistry) {
