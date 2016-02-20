@@ -63,10 +63,7 @@
 		if (document.getElementById('launched-placeholder'))
         	loadPresentation();
 		if (!window.presStarted) {
-    		bespoke.horizontal.from('article', {
-    			hash: true,
-    			state: true
-    		});
+        window.presentation.launch_presentation();
 		}
 	});
 	</script>
@@ -83,4 +80,6 @@
 <body>
 	<div id="launched-placeholder"></div>
 </body>
+	<script src="bespoke/scripts/build.js"></script>
+
 </html>
